@@ -1,0 +1,17 @@
+"0","countryname<-read_csv(""C:/Users/mins/Desktop/CountriesComparisionTable.csv"")
+"
+"2","Parsed with column specification:
+cols(
+  ISO3 = col_character(),
+  English = col_character(),
+  Taiwan = col_character()
+)
+"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","colnames(countryname)<-c(""ISO3"",""English"",""國別"")"
